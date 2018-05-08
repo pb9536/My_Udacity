@@ -1,0 +1,7 @@
+Query strings form part of the URL, and are therefore included if the user saves or sends the URL to another user; cookies can be maintained across browsing sessions, but are not saved or sent with the URL.
+If the user arrives at the same web server by two (or more) independent paths, it will be assigned two different query strings, while the stored cookies are the same.
+The user can disable cookies, in which case using cookies for tracking does not work. However, using query strings for tracking should work in all situations.
+Different query strings passed by different visits to the page will mean that the pages are never served from the browser (or proxy, if present) cache thereby increasing the load on the web server and slowing down the user experience.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
