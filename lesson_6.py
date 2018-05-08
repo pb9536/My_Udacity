@@ -5,6 +5,29 @@ def draw_turtles():
     window.bgcolor("pink")
 
     draw_square()
+      
+    window.exitonclick()
+    
+def draw_square(): 
+    pari = turtle.Turtle()
+    pari.shape("turtle")
+    pari.color("red")
+    pari.speed(1)
+
+    for i in range(0,4):
+        pari.forward(100)
+        pari.right(90)
+
+draw_turtles()
+
+
+import turtle
+
+def draw_turtles():
+    window = turtle.Screen()
+    window.bgcolor("pink")
+
+    draw_square()
     draw_circle()
     draw_triangle()
     
@@ -40,4 +63,3 @@ def draw_triangle():
 
 
 draw_turtles()
-
